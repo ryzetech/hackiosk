@@ -1,0 +1,21 @@
+{
+  "name": "hackiosk",
+  "version": "0.1.0",
+  "description": "Hackiosk is a simple web-based kiosk system for hackerspaces.",
+  "main": "app.js",
+  "type": "module",
+  "author": "ryzetech",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@prisma/client": "^4.12.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "node-data-validator": "^1.1.3",
+    "node-ws-packets": "^1.1.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
+}
